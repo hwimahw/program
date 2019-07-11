@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>How to Start with dhtmlxGrid</title>
+    <script type="text/javascript" src="grid/codebase/grid.js"></script>
+    <link rel="stylesheet" href="grid/codebase/grid.css">
+    <style>
+
+    </style>
+</head>
+<body>
+dfdfdfdfdiiiiiii
+<div  id="grid"></div>
+<script>
+    // creating dhtmlxGrid
+
+    var grid = new dhx.Grid("grid", {
+        columns: [
+            { width: 100, id: "a", header: [{ text: "#" }] },
+            { width: 100, id: "b", header: [{ text: "Title" }] },
+            { width: 200, id: "c", header: [{ text: "Name" }] },
+            { width: 200, id: "d", header: [{ text: "Address" }] }
+        ],
+        headerRowHeight: 50
+    });
+
+  /*  var grid = new dhx.Grid("grid", {
+        columns: [
+            {
+                width: 100, id: "a", header: [{ text: "#" }], footer: [
+                    { text: '<div class="custom_footer">Total</div>', colspan: 3 },
+                    { text: '<div class="custom_footer">Minimal value</div>', colspan: 3 }
+                ]
+            },
+            { width: 100, id: "b", header: [{ text: "Title" }] },
+            { width: 200, id: "c", header: [{ text: "Order" }] },
+            { width: 200, id: "d", header: [{ text: "Price" }], footer: [
+                    { content: "sum" }, { content: "min" }
+                ]
+            }
+        ],
+        data: dataset
+    });*/
+
+</script>
+</body>
+</html>
